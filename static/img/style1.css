@@ -1,0 +1,190 @@
+
+
+
+body {
+	background: #000;
+/*	background: -webkit-linear-gradient(#020913, #4d0f4e); 
+    background: -o-linear-gradient(#020913, #4d0f4e); 
+    background: -moz-linear-gradient(#020913, #4d0f4e);*/
+/*    background: linear-gradient(#020913, #020913, #4d0f4e, #041830, #000); /* Standard syntax */
+*/}
+
+
+
+a {
+	color: #fff;
+}
+
+h1 {
+	color: #fff;
+	font-size: 2em;
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+
+}
+
+form {
+	color: #fff;
+	padding-top: 30px;
+	padding-bottom: 50px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: small;
+    margin-left: 35%;
+
+}
+
+button {
+	padding: 10px;
+	font-weight: bold;
+}
+
+#add {
+	padding-bottom: 50px;
+}
+
+#container 
+	 {
+	background: #000;
+}
+
+#nav 
+	li {
+		display: inline-block;
+		margin: 0;
+		color: #fff;
+		padding: 10px;
+		padding-right: 50px;
+		font-size: 1em;
+		font-family: 'Press Start 2P', cursive;
+	}
+#nav 
+	{
+		width: 100%;
+	}
+
+.yy {
+  margin: 10px auto;
+  /*width: 250px;
+  height: 250px;*/
+  padding: 10px;
+  border-left: 20px solid #000;
+  border-right: 20px solid #000;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background-position: 0 0, 0 100% ;
+  background-repeat: no-repeat;
+  -webkit-background-size: 100% 20px;
+  -moz-background-size: 100% 20px;
+  background-size: 100% 20px;
+  /*background-image: -webkit-linear-gradient(left, #3f1040 0%, #3a4ed5 100%), -webkit-linear-gradient(left, #3acfd5 0%, #4d0f4e 100%);
+  background-image: -moz-linear-gradient(left, #3acfd5 0%, #3a4ed5 100%), -moz-linear-gradient(left, #3acfd5 0%, #3a4ed5 100%);
+  background-image: -o-linear-gradient(left, #3acfd5 0%, #3a4ed5 100%), -o-linear-gradient(left, #3acfd5 0%, #3a4ed5 100%);*/
+  background-image: linear-gradient(to right, #000 0%, #4d0f4e 35%, #fe9ada 65%, #000 100%), linear-gradient(to right, #000 0%, #4d0f4e 35%, #fe9ada 65%, #000 100%);
+}
+
+#nav 
+	a {
+		text-decoration: none;
+	}
+
+#nav 
+	a:hover {
+		color: #dd275c;
+	}
+
+
+#head {
+	padding-top: 50px;
+}
+
+#header {
+	padding: 20px;
+	padding-bottom: 50px;}
+
+#AW3 {
+	width: 200px;
+	float: right;
+ 	position: relative;
+  	height: 420px;
+  	display: block;
+  	background-image: url('static/img/AW3.png');
+  	background-size: cover;
+}
+
+#AW3:after {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+  background: radial-gradient(circle, transparent 50%, red 150%);
+  mix-blend-mode: difference;
+}
+
+
+#acht {
+	width: 300px;
+	float: right;
+}
+
+.btn {
+  background: #4d0f4e;
+  background-image: -webkit-linear-gradient(top, #4d0f4e, #fe9ada);
+  background-image: -moz-linear-gradient(top, #4d0f4e, #fe9ada);
+  background-image: -ms-linear-gradient(top, #4d0f4e, #fe9ada);
+  background-image: -o-linear-gradient(top, #4d0f4e, #fe9ada);
+  background-image: linear-gradient(to bottom, #4d0f4e, #fe9ada);
+  -webkit-border-radius: 4;
+  -moz-border-radius: 4;
+  border-radius: 4px;
+  font-family: Courier New;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #000;
+  background-image: -webkit-linear-gradient(top, #000, #fff);
+  background-image: -moz-linear-gradient(top, #000, #fff);
+  background-image: -ms-linear-gradient(top, #000, #fff);
+  background-image: -o-linear-gradient(top, #000, #fff);
+  background-image: linear-gradient(to bottom, #000, #fff);
+  text-decoration: none;
+}
+
+#frienz 
+	li {
+	text-align: center;
+	padding: 10px;
+  color: #fff;
+  text-decoration: none;
+  list-style: none;
+}
+
+#frienz
+	a {
+		text-decoration: none;
+		font-family: 'Press Start 2P', cursive;
+		font-size: 0.8em;
+		padding-bottom: 30px;
+		text-align: center;
+
+	}
+
+  #aboutt {
+    text-align: center;
+    width:400px;
+    list-style: none;
+    padding-left: 40%;
+  }
+
+#footer {
+	color: #fff;
+	padding: 40px;
+	text-decoration: none;
+	font-family: 'Press Start 2P', cursive;
+	font-size: 0.8em;
+	padding-bottom: 30px;
+	text-align: center;
+}
