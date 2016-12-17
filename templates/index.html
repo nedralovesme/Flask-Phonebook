@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="static/style1.css">
+<link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+{% block customstyle %}
+{% endblock %}
+
+	<title>Super Awesome Phonebook!</title>
+</head>
+<body>
+<div class="yy">
+<div id="nav">
+<ul>
+<li><a href="/">Home</a></li>
+<li><a href="new_friend">Join</a></li>
+<li><a href="#">Contact</a></li>
+</ul></div></div>
+
+{% block body_top%}
+<div id="container">
+<div id="header"><center><img src="static/img/pb2.jpg" width="800" id="head"></center></div></div>
+{% endblock %}
+{% block body %}
+{% endblock %}
+
+{% block footer %}
+<div id="footer"><a href=#>Copyright 2016</a></div>
+{% endblock %}
+</body>
+</html>
